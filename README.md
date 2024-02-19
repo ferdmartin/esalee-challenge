@@ -9,7 +9,7 @@ We also created features based on feature-engineering techniques to enhance mode
 
 Repo structure:
 - `src/experiments.ipynb`: Experiments and results
-- `app`: Web application to test our model passing (reviewerID, itemID)
+- `app`: Web application to test our model passing (reviewerID, itemID). Link to web app: **TBD**
 
 ## Requirements
 - numpy
