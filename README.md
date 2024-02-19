@@ -9,4 +9,4 @@
 - tensorflow-hub
 
 
-![Best Architecture - Neural Collaborative Filtering](misc/Amazon Reviews Architecture.png)
+![Best Architecture - Neural Collaborative Filtering](ferdmartin/esalee-challenge/misc/Amazon Reviews Architecture.png)
