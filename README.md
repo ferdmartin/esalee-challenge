@@ -9,7 +9,7 @@ We also created features based on feature-engineering techniques to enhance mode
 
 Repo structure:
 - `src/experiments.ipynb`: Experiments and results
-- `app`: Web application to test our model passing (reviewerID, itemID). Link to web app: **TBD**
+- `app`: Web application to test our model passing (reviewerID, itemID). Link to web app: https://ferdmartin-recommenderamazonreviews.hf.space
 
 ## Requirements
 - numpy
@@ -18,6 +18,5 @@ Repo structure:
 - scikit-learn
 - tensorflow
 - tensorflow-hub
-
 
 ![Best Architecture - Neural Collaborative Filtering](https://github.com/ferdmartin/esalee-challenge/blob/main/misc/Amazon%20Reviews%20Architecture.png)
