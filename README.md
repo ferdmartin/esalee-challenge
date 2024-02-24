@@ -11,6 +11,16 @@ Repo structure:
 - `src/experiments.ipynb`: Experiments and results
 - `app`: Web application to test our model passing (reviewerID, itemID). Link to web app: https://ferdmartin-recommenderamazonreviews.hf.space
 
+## Results
+### Benchmarks provided by challenge guidelines
+- Naive baseline: 1.02111
+- Robust Baseline: 0.60756
+
+### Our performance
+- Naive baseline (Lasso) without feature engineering: 1.004149
+- Baseline (Lasso) with feature-engineered variables: 0.9845879
+- Robust model (Neural Collaborative Filtering): 0.591156
+
 ## Requirements
 - numpy
 - pandas
