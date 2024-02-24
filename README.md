@@ -1,9 +1,9 @@
 # Dr. Lee Challenge - Amazon Reviews
 
 ## Description
-This repository contains the exploration and implementation of machine learning models designed to predict ratings based on music reviews from Amazon. In our experimental process, we tested two models to compare to the provided baseline results:
-- Lasso regression (to challenge baseline MSE)
-- Neural Collaborative Filtering network with associated features
+This repository contains the exploration and implementation of machine learning models designed to predict ratings based on music reviews from Amazon. In our experimental process, we tested two models to challenge to the provided baseline results:
+- Lasso regression: To challenge the baseline MSE. To handle our text variables, we transformed "summary" and "reviewText" into numerical values using TfidfVectorizer. TfidfVectorizer converts text to a matrix of TF-IDF features, capturing the importance of words in relation to the documents.
+- Neural Collaborative Filtering network with associated features: To challenge the most robust result provided. To process our text features, we utilized the Universal Sentence Encoder (USE) from Google to process text inputs. USE creates high-dimensional vectors for sentences, capturing their semantic meanings for improved model performance.
 
 We also created features based on feature-engineering techniques to enhance model performance and tested them against baseline results.
 
